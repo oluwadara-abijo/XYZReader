@@ -117,7 +117,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         Adapter adapter = new Adapter(cursor);
         adapter.setHasStableIds(true);
         mRecyclerView.setAdapter(adapter);
-        int columnCount = getResources().getInteger(R.integer.list_column_count);
         LinearLayoutManager gridLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(gridLayoutManager);
     }
