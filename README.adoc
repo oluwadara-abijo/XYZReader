@@ -1,3 +1,14 @@
-= XYZ Reader Starter Code
+= XYZ Reader
 
-This repository stores the starter code for the XYZ Reader project in Udacity's Android Nanodegree.
+== Project Overview
+
+This repository initially stored the starter code for the XYZ Reader project in Udacity's Android Nanodegree.
+Now, changes have been implemented, which improve the UI and make it conform to Material Design.
+
+The app uses the Design support library and its provided widget types which include FloatingActionButton, CollapsingToolbarLayout, CoordinatorLayout and AppBarLayout.
+
+== Getting started
+You can run the application on your local machine by cloning this repo, and importing the project on Android Studio.
+
+== Built With
+Android Studio 3.3.2
